@@ -1,11 +1,11 @@
-# Optimal Customer Delivery Plan Project
-Welcome to the repository for the Optimal Customer Delivery Plan project developed for the Supply Chain Lab course at Vrije Universiteit Amsterdam. This project entails the creation of a Mixed Integer Linear Program (MILP) to tackle a complex problem in the realm of supply chain logistics, specifically focusing on optimizing customer delivery plans.
+# Optimal Customer Delivery Plan – Supply Chain Lab (VU Amsterdam)
+This repository contains my project for the Supply Chain Lab course at Vrije Universiteit Amsterdam. The goal? To design an optimal delivery plan using Mixed Integer Linear Programming (MILP) and tackle one of the classic challenges in logistics: getting goods to customers as efficiently as possible.
 
-## Project Overview
-The objective of this project was to build a series of programs, precisely four, each aiming to solve a particular aspect of the case study provided. The case revolves around devising the most efficient plan for customer deliveries, a critical component in supply chain management and logistics. The focus here is on the implementation and solutions provided in the third notebook, which addresses the Vehicle Routing Problem (VRP), a fundamental challenge in achieving optimal delivery routes.
+#### Project Overview
+The project is built around a case study focused on optimizing customer delivery routes. It’s split into four parts, each solving a specific subproblem—but the main focus here is on the third part: solving the Vehicle Routing Problem using MILP.
 
-## Key Features
-- **Mixed Integer Linear Programming (MILP)**: Utilizes MILP techniques to find the optimal solution for the VRP, ensuring efficient route planning for customer deliveries.
-- **Optimization**: Focuses on minimizing the total distance traveled while meeting all customer demands and adhering to vehicle capacity constraints.
-- **Scalability**: Demonstrates how the model can be scaled for different scenarios, including varying number of vehicles and customer demand levels.
-- **Sensitivity Analysis**: Examines how changes in parameters affect the overall solution, aiding in understanding the robustness of the proposed plan.
+#### Includes
+- **Mixed Integer Linear Programming (MILP)**: MILP is used to model and solve the VRP, ensuring all constraints (like delivery demand and vehicle capacity) are respected.
+- **Route Optimization**: The model minimizes the total distance traveled while meeting all customer requirements.
+- **Scalable Design**: The solution can handle different problem sizes, adjusting to various numbers of customers and vehicles.
+- **Sensitivity Analysis**: Includes an exploration of how small changes in parameters (e.g. demand or vehicle limits) impact the solution’s effectiveness and feasibility.
